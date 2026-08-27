@@ -22,4 +22,8 @@ def search_firm(firm_name: str, api_key: str, cse_id: str, num: int = 5) -> dict
         urls = [item["link"] for item in data.get("items", [])]
         return {"ok": True, "urls": urls, "error": None}
     except Exception as e:
-        return {"ok": False, "urls": [], "error": str(e)}
+        # requests' HTTPError message embeds the full request URL, which
+        # includes the API key/CSE ID as query params — never let those
+        # reach logs, the digest email, or the committed/published dashboard.
+        error = str(e).replace(api_key, "***").replace(cse_id, "***")
+        return {"ok": False, "urls": [], "error": error}

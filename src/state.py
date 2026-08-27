@@ -11,6 +11,7 @@ def load_state(path: str) -> dict:
         data = json.load(f)
     data.setdefault("pages", {})
     data.setdefault("search", {})
+    data.setdefault("manual_check", [])
     return data
 
 

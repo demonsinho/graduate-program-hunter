@@ -15,10 +15,12 @@ from state import load_state, save_state
 from scraper import Scraper
 from search import search_firm
 from notifier import send_digest
+from history import append_events
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONFIG_PATH = os.path.join(BASE_DIR, "config", "firms.yaml")
 STATE_PATH = os.path.join(BASE_DIR, "state.json")
+HISTORY_PATH = os.path.join(BASE_DIR, "data", "alerts_history.json")
 
 OPENING_KEYWORDS = ["2027"]
 SEARCH_INTERVAL_DAYS = 7
@@ -41,7 +43,12 @@ def check_pages(firms: list, state: dict, scraper: Scraper) -> tuple:
             key = f"{name}|{location}"
             result = scraper.check_page(url)
             if not result["ok"]:
-                manual_check.append(f"{name} ({location}): fetch failed for {url} — {result['error']}")
+                manual_check.append({
+                    "firm": name,
+                    "location": location,
+                    "url": url,
+                    "reason": result["error"],
+                })
                 continue
 
             prev = state["pages"].get(key)
@@ -55,7 +62,13 @@ def check_pages(firms: list, state: dict, scraper: Scraper) -> tuple:
             # hash-changed-while-present check fires a false alarm forever.
             prev_had_signal = bool(prev and prev.get("has_signal"))
             if prev is not None and not prev_had_signal and has_signal:
-                page_changes.append(f"{name} ({location}): page now mentions 2027 — {url}")
+                page_changes.append({
+                    "type": "page_change",
+                    "firm": name,
+                    "location": location,
+                    "detail": "page now mentions 2027",
+                    "url": url,
+                })
 
             state["pages"][key] = {
                 "hash": new_hash,
@@ -80,14 +93,25 @@ def check_searches(firms: list, state: dict, api_key: str, cse_id: str) -> tuple
 
         result = search_firm(name, api_key, cse_id)
         if not result["ok"]:
-            manual_check.append(f"{name}: search check failed — {result['error']}")
+            manual_check.append({
+                "firm": name,
+                "location": None,
+                "url": None,
+                "reason": f"search check failed — {result['error']}",
+            })
             continue
 
         prev_urls = set(prev["result_urls"]) if prev else set()
         if prev is not None:
             for url in result["urls"]:
                 if url not in prev_urls:
-                    search_hits.append(f"{name}: new search result — {url}")
+                    search_hits.append({
+                        "type": "search_hit",
+                        "firm": name,
+                        "location": None,
+                        "detail": "new search result",
+                        "url": url,
+                    })
 
         state["search"][name] = {
             "last_checked": now.isoformat(),
@@ -96,19 +120,26 @@ def check_searches(firms: list, state: dict, api_key: str, cse_id: str) -> tuple
     return search_hits, manual_check
 
 
+def _fmt_manual_check(entry: dict) -> str:
+    if entry.get("url"):
+        where = f" ({entry['location']})" if entry.get("location") else ""
+        return f"{entry['firm']}{where}: fetch failed for {entry['url']} — {entry['reason']}"
+    return f"{entry['firm']}: {entry['reason']}"
+
+
 def build_digest(page_changes: list, search_hits: list, manual_check: list) -> str:
     lines = []
     if page_changes:
         lines.append("=== Career page changes mentioning 2027 ===")
-        lines.extend(f"- {line}" for line in page_changes)
+        lines.extend(f"- {e['firm']} ({e['location']}): {e['detail']} — {e['url']}" for e in page_changes)
         lines.append("")
     if search_hits:
         lines.append("=== New search results mentioning 2027 ===")
-        lines.extend(f"- {line}" for line in search_hits)
+        lines.extend(f"- {e['firm']}: {e['detail']} — {e['url']}" for e in search_hits)
         lines.append("")
     if manual_check:
         lines.append("=== Needs manual check (fetch/search failures) ===")
-        lines.extend(f"- {line}" for line in manual_check)
+        lines.extend(f"- {_fmt_manual_check(e)}" for e in manual_check)
         lines.append("")
     return "\n".join(lines)
 
@@ -147,7 +178,9 @@ def main() -> int:
                 gmail_app_password=gmail_app_password,
             )
             print(f"Digest emailed to {to_addr}.")
+        append_events(HISTORY_PATH, page_changes + search_hits)
 
+    state["manual_check"] = manual_check
     save_state(STATE_PATH, state)
     return 0
 

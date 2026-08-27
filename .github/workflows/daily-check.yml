@@ -32,10 +32,13 @@ jobs:
           DIGEST_TO: ${{ secrets.GMAIL_USER }}
         run: python src/main.py
 
+      - name: Build dashboard
+        run: python src/dashboard.py
+
       - name: Commit updated state
         run: |
           git config user.name "grad-program-hunter-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add state.json
-          git diff --cached --quiet || git commit -m "Update state.json [skip ci]"
+          git add state.json data/alerts_history.json docs/
+          git diff --cached --quiet || git commit -m "Update state and dashboard [skip ci]"
           git push
