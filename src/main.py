@@ -48,11 +48,18 @@ def check_pages(firms: list, state: dict, scraper: Scraper) -> tuple:
             new_hash = result["hash"]
             has_signal = any(k.lower() in result["text"].lower() for k in OPENING_KEYWORDS)
 
-            if prev is not None and prev["hash"] != new_hash and has_signal:
-                page_changes.append(f"{name} ({location}): page changed and mentions 2027 — {url}")
+            # Alert only on the absent -> present transition. Comparing raw
+            # page hashes was too noisy: unrelated churn (cookie banners,
+            # ads, A/B tests) changes the hash constantly, and if "2027"
+            # was already on the page (e.g. boilerplate date ranges), a
+            # hash-changed-while-present check fires a false alarm forever.
+            prev_had_signal = bool(prev and prev.get("has_signal"))
+            if prev is not None and not prev_had_signal and has_signal:
+                page_changes.append(f"{name} ({location}): page now mentions 2027 — {url}")
 
             state["pages"][key] = {
                 "hash": new_hash,
+                "has_signal": has_signal,
                 "last_checked": datetime.now(timezone.utc).isoformat(),
             }
     return page_changes, manual_check
