@@ -1,0 +1,491 @@
+# Grad Program Hunter — firm/location tracking config
+#
+# Each firm has a tier (informational, from the user's original ranking) and
+# a list of locations to track. Every career_url is a best-effort guess at
+# the firm's early-careers / graduate-programme landing page (programme-
+# specific "Summer 2027" URLs don't exist yet — they appear once a
+# programme opens, which is exactly what this tool is watching for).
+#
+# `verify: true` means the URL has NOT been live-checked yet — it may be
+# stale, redirected, or wrong. Check it once and either fix the URL or
+# remove the `verify` flag. The scraper will still run against verify:true
+# entries; a broken one just shows up in the "needs manual check" digest
+# section instead of crashing the run.
+
+firms:
+  # --- Tier 1 ---
+  - name: Goldman Sachs
+    tier: 1
+    locations:
+      - location: Madrid
+        career_url: https://www.goldmansachs.com/careers/students
+        verify: true
+      - location: London
+        career_url: https://www.goldmansachs.com/careers/students
+        verify: true
+
+  - name: J.P. Morgan
+    tier: 1
+    locations:
+      - location: Madrid
+        career_url: https://careers.jpmorgan.com/global/en/students/programs
+        verify: true
+      - location: London
+        career_url: https://careers.jpmorgan.com/global/en/students/programs
+        verify: true
+
+  - name: Morgan Stanley
+    tier: 1
+    locations:
+      - location: Madrid
+        career_url: https://www.morganstanley.com/people-opportunities/students-graduates
+        verify: true
+      - location: London
+        career_url: https://www.morganstanley.com/people-opportunities/students-graduates
+        verify: true
+      - location: Dublin
+        career_url: https://www.morganstanley.com/people-opportunities/students-graduates
+        verify: true
+
+  - name: PJT Partners
+    tier: 1
+    locations:
+      - location: London
+        career_url: https://www.pjtpartners.com/careers/
+        verify: true
+
+  # --- Tier 2 ---
+  - name: Bank of America
+    tier: 2
+    locations:
+      - location: Madrid
+        career_url: https://campus.bofa.com/
+        verify: true
+      - location: London
+        career_url: https://campus.bofa.com/
+        verify: true
+      - location: Dublin
+        career_url: https://campus.bofa.com/
+        verify: true
+
+  - name: Citi
+    tier: 2
+    locations:
+      - location: Madrid
+        career_url: https://jobs.citi.com/students-and-graduates
+        verify: true
+      - location: London
+        career_url: https://jobs.citi.com/students-and-graduates
+        verify: true
+      - location: Dublin
+        career_url: https://jobs.citi.com/students-and-graduates
+        verify: true
+
+  - name: Barclays
+    tier: 2
+    locations:
+      - location: Madrid
+        career_url: https://search.jobs.barclays/students-and-graduates
+        verify: true
+      - location: London
+        career_url: https://search.jobs.barclays/students-and-graduates
+        verify: true
+      - location: Dublin
+        career_url: https://search.jobs.barclays/students-and-graduates
+        verify: true
+
+  - name: Jefferies
+    tier: 2
+    locations:
+      - location: Madrid
+        career_url: https://www.jefferies.com/who-we-are/careers/
+        verify: true
+      - location: London
+        career_url: https://www.jefferies.com/who-we-are/careers/
+        verify: true
+
+  - name: Evercore
+    tier: 2
+    locations:
+      - location: Madrid
+        career_url: https://www.evercore.com/careers/
+        verify: true
+      - location: London
+        career_url: https://www.evercore.com/careers/
+        verify: true
+
+  - name: Lazard
+    tier: 2
+    locations:
+      - location: Madrid
+        career_url: https://www.lazard.com/careers/
+        verify: true
+      - location: London
+        career_url: https://www.lazard.com/careers/
+        verify: true
+
+  # --- Tier 3 ---
+  - name: Nomura
+    tier: 3
+    locations:
+      - location: Madrid
+        career_url: https://www.nomura.com/careers/students-and-graduates
+        verify: true
+      - location: London
+        career_url: https://www.nomura.com/careers/students-and-graduates
+        verify: true
+
+  - name: UBS
+    tier: 3
+    locations:
+      - location: Madrid
+        career_url: https://www.ubs.com/global/en/careers/students-and-graduates.html
+        verify: true
+      - location: London
+        career_url: https://www.ubs.com/global/en/careers/students-and-graduates.html
+        verify: true
+
+  - name: BNP Paribas
+    tier: 3
+    locations:
+      - location: Madrid
+        career_url: https://careers.bnpparibas/en/students-graduates
+        verify: true
+      - location: London
+        career_url: https://careers.bnpparibas/en/students-graduates
+        verify: true
+
+  - name: Deutsche Bank
+    tier: 3
+    locations:
+      - location: Madrid
+        career_url: https://careers.db.com/students-graduates/
+        verify: true
+      - location: London
+        career_url: https://careers.db.com/students-graduates/
+        verify: true
+
+  - name: Rothschild & Co
+    tier: 3
+    locations:
+      - location: Madrid
+        career_url: https://www.rothschildandco.com/en/careers/
+        verify: true
+      - location: London
+        career_url: https://www.rothschildandco.com/en/careers/
+        verify: true
+
+  # --- Tier 4 ---
+  - name: RBC Capital Markets
+    tier: 4
+    locations:
+      - location: Madrid
+        career_url: https://jobs.rbc.com/ca/en/students-graduates
+        verify: true
+      - location: London
+        career_url: https://jobs.rbc.com/ca/en/students-graduates
+        verify: true
+
+  - name: Societe Generale
+    tier: 4
+    locations:
+      - location: Madrid
+        career_url: https://careers.societegenerale.com/en/students-graduates
+        verify: true
+      - location: London
+        career_url: https://careers.societegenerale.com/en/students-graduates
+        verify: true
+
+  - name: Credit Agricole CIB
+    tier: 4
+    locations:
+      - location: Madrid
+        career_url: https://www.ca-cib.com/careers
+        verify: true
+      - location: London
+        career_url: https://www.ca-cib.com/careers
+        verify: true
+
+  # --- Tier 5 ---
+  - name: Houlihan Lokey
+    tier: 5
+    locations:
+      - location: Madrid
+        career_url: https://hl.com/careers/students/
+        verify: true
+      - location: London
+        career_url: https://hl.com/careers/students/
+        verify: true
+
+  - name: Greenhill
+    tier: 5
+    locations:
+      - location: London
+        career_url: https://www.greenhill.com/careers
+        verify: true
+
+  # --- Tier 6 ---
+  - name: Santander
+    tier: 6
+    locations:
+      - location: Madrid
+        career_url: https://www.santander241.com/en/graduate-programme
+        verify: true
+
+  # --- Tier 7 ---
+  - name: BBVA
+    tier: 7
+    locations:
+      - location: Madrid
+        career_url: https://empleo.bbva.com/programas-jovenes-talentos
+        verify: true
+
+  # --- Tier 8 ---
+  - name: Alantra
+    tier: 8
+    locations:
+      - location: Madrid
+        career_url: https://www.alantra.com/careers/
+        verify: true
+
+  # --- Tier 9 ---
+  - name: Arcano
+    tier: 9
+    locations:
+      - location: Madrid
+        career_url: https://www.arcanopartners.com/careers/
+        verify: true
+
+  - name: AZ Capital
+    tier: 9
+    locations:
+      - location: Madrid
+        career_url: https://www.azcapital.es/en/careers/
+        verify: true
+
+  # --- Tier 10 ---
+  - name: CaixaBank
+    tier: 10
+    locations:
+      - location: Madrid
+        career_url: https://www.caixabank.com/en/about-us/careers.html
+        verify: true
+
+  - name: Banco Sabadell
+    tier: 10
+    locations:
+      - location: Madrid
+        career_url: https://www.grupbancsabadell.com/es/carreras-profesionales/
+        verify: true
+
+  - name: ING
+    tier: 10
+    locations:
+      - location: Madrid
+        career_url: https://www.ing.jobs/spain/home.htm
+        verify: true
+      - location: Netherlands
+        career_url: https://www.ing.jobs/netherlands/home.htm
+        verify: true
+
+  - name: Bankinter
+    tier: 10
+    locations:
+      - location: Madrid
+        career_url: https://www.bankinter.com/empleo
+        verify: true
+
+  - name: DC Advisory
+    tier: 10
+    locations:
+      - location: Madrid
+        career_url: https://www.dcadvisory.com/careers/
+        verify: true
+      - location: London
+        career_url: https://www.dcadvisory.com/careers/
+        verify: true
+
+  - name: Alvarez & Marsal
+    tier: 10
+    locations:
+      - location: Madrid
+        career_url: https://www.alvarezandmarsal.com/careers
+        verify: true
+      - location: London
+        career_url: https://www.alvarezandmarsal.com/careers
+        verify: true
+
+  # --- Tier 11: Big Four ---
+  - name: Deloitte
+    tier: 11
+    locations:
+      - location: Madrid
+        career_url: https://apply.deloitte.com/es/en/students-graduates
+        verify: true
+      - location: London
+        career_url: https://www2.deloitte.com/uk/en/careers/students.html
+        verify: true
+      - location: Dublin
+        career_url: https://www2.deloitte.com/ie/en/careers/students.html
+        verify: true
+      - location: Netherlands
+        career_url: https://www2.deloitte.com/nl/nl/careers/students.html
+        verify: true
+
+  - name: EY
+    tier: 11
+    locations:
+      - location: Madrid
+        career_url: https://www.ey.com/es_es/careers/students
+        verify: true
+      - location: London
+        career_url: https://www.ey.com/en_uk/careers/students
+        verify: true
+      - location: Dublin
+        career_url: https://www.ey.com/en_ie/careers/students
+        verify: true
+      - location: Netherlands
+        career_url: https://www.ey.com/nl_nl/careers/students
+        verify: true
+
+  - name: KPMG
+    tier: 11
+    locations:
+      - location: Madrid
+        career_url: https://empleo.kpmg.es/
+        verify: true
+      - location: London
+        career_url: https://www.kpmgcareers.co.uk/students/
+        verify: true
+      - location: Dublin
+        career_url: https://home.kpmg/ie/en/home/careers/students.html
+        verify: true
+      - location: Netherlands
+        career_url: https://www.gaan-je-carriere-starten-bij-kpmg.nl/
+        verify: true
+
+  - name: PwC
+    tier: 11
+    locations:
+      - location: Madrid
+        career_url: https://www.pwc.es/es/carreras/estudiantes.html
+        verify: true
+      - location: London
+        career_url: https://www.pwc.co.uk/careers/student-careers.html
+        verify: true
+      - location: Dublin
+        career_url: https://www.pwc.ie/careers/graduates.html
+        verify: true
+      - location: Netherlands
+        career_url: https://www.pwc.nl/en/carriere/students.html
+        verify: true
+
+  # --- Tier 12: Mid-tier accounting/advisory ---
+  - name: BDO
+    tier: 12
+    locations:
+      - location: Madrid
+        career_url: https://www.bdo.es/es-es/carreras
+        verify: true
+      - location: London
+        career_url: https://www.bdo.co.uk/en-gb/careers/students-and-graduates
+        verify: true
+
+  - name: Grant Thornton
+    tier: 12
+    locations:
+      - location: Madrid
+        career_url: https://www.grantthornton.es/en/careers/
+        verify: true
+      - location: London
+        career_url: https://www.grantthornton.co.uk/careers/students/
+        verify: true
+
+  - name: Baker Tilly
+    tier: 12
+    locations:
+      - location: Madrid
+        career_url: https://www.bakertilly.es/carreras/
+        verify: true
+      - location: London
+        career_url: https://www.bakertilly.co.uk/careers/
+        verify: true
+
+  # --- London additions ---
+  - name: HSBC
+    tier: 13
+    locations:
+      - location: London
+        career_url: https://www.hsbc.com/careers/students-and-graduates
+        verify: true
+
+  - name: Macquarie
+    tier: 13
+    locations:
+      - location: London
+        career_url: https://www.macquarie.com/careers/students.html
+        verify: true
+
+  - name: Centerview Partners
+    tier: 13
+    locations:
+      - location: London
+        career_url: https://www.centerview.com/careers
+        verify: true
+
+  - name: Moelis & Company
+    tier: 13
+    locations:
+      - location: London
+        career_url: https://www.moelis.com/careers/
+        verify: true
+
+  - name: Investec
+    tier: 13
+    locations:
+      - location: London
+        career_url: https://www.investec.com/en_gb/welcome-to-investec/careers/students-and-graduates.html
+        verify: true
+
+  - name: Peel Hunt
+    tier: 13
+    locations:
+      - location: London
+        career_url: https://www.peelhunt.com/careers/
+        verify: true
+
+  - name: Numis
+    tier: 13
+    locations:
+      - location: London
+        career_url: https://www.numis.com/careers
+        verify: true
+
+  # --- Netherlands additions ---
+  - name: ABN AMRO
+    tier: 14
+    locations:
+      - location: Netherlands
+        career_url: https://www.abnamro.com/en/careers/students
+        verify: true
+
+  - name: Rabobank
+    tier: 14
+    locations:
+      - location: Netherlands
+        career_url: https://www.rabobank.jobs/en/students/
+        verify: true
+
+  - name: NIBC
+    tier: 14
+    locations:
+      - location: Netherlands
+        career_url: https://www.nibc.com/careers/
+        verify: true
+
+  - name: Kempen & Co
+    tier: 14
+    locations:
+      - location: Netherlands
+        career_url: https://www.kempen.com/en/careers
+        verify: true
