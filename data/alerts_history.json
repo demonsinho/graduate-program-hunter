@@ -70,5 +70,29 @@
     "timestamp": "2026-09-29T13:39:41.449869+00:00",
     "type": "page_change",
     "url": "https://www.mha.co.uk/careers/graduates"
+  },
+  {
+    "detail": "page now mentions 2027",
+    "firm": "Deutsche Bank",
+    "location": "Madrid",
+    "timestamp": "2026-10-01T14:08:08.509265+00:00",
+    "type": "page_change",
+    "url": "https://careers.db.com/students-graduates/"
+  },
+  {
+    "detail": "page now mentions 2027",
+    "firm": "Deutsche Bank",
+    "location": "London",
+    "timestamp": "2026-10-01T14:08:08.509265+00:00",
+    "type": "page_change",
+    "url": "https://careers.db.com/students-graduates/"
+  },
+  {
+    "detail": "page now mentions 2027",
+    "firm": "Numis",
+    "location": "London",
+    "timestamp": "2026-10-01T14:08:08.509265+00:00",
+    "type": "page_change",
+    "url": "https://careers.db.com/students-graduates/"
   }
 ]
