@@ -118,5 +118,13 @@
     "timestamp": "2026-10-03T12:14:53.778351+00:00",
     "type": "page_change",
     "url": "https://jobs.citi.com/students-and-graduates"
+  },
+  {
+    "detail": "page now mentions 2027",
+    "firm": "Grant Thornton",
+    "location": "London",
+    "timestamp": "2026-10-06T13:53:27.239765+00:00",
+    "type": "page_change",
+    "url": "https://www.grantthornton.co.uk/careers/early-careers/"
   }
 ]
