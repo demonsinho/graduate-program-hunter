@@ -19,18 +19,6 @@
       "url": "https://www.morganstanley.com/people-opportunities/students-graduates"
     },
     {
-      "firm": "Credit Agricole CIB",
-      "location": "Madrid",
-      "reason": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.ca-cib.com/careers\", waiting until \"domcontentloaded\"\n",
-      "url": "https://www.ca-cib.com/careers"
-    },
-    {
-      "firm": "Credit Agricole CIB",
-      "location": "London",
-      "reason": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.ca-cib.com/careers\", waiting until \"domcontentloaded\"\n",
-      "url": "https://www.ca-cib.com/careers"
-    },
-    {
       "firm": "Goldman Sachs",
       "location": null,
       "reason": "search check failed \u2014 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?key=***&cx=***&q=Goldman+Sachs+graduate+programme+2027&num=5",
@@ -329,432 +317,432 @@
     "ABN AMRO|Netherlands": {
       "has_signal": false,
       "hash": "fc73c899bad81d984dd1b1402bab1f4aaff277ef266675c23494b72f91ed3d19",
-      "last_checked": "2026-10-22T12:44:38.370132+00:00"
+      "last_checked": "2026-10-23T12:23:00.041280+00:00"
     },
     "AZ Capital|Madrid": {
       "has_signal": false,
       "hash": "5752f62b9d9cb60539f801349ce9026bd2fa7320ebb31f6136cef7547df98902",
-      "last_checked": "2026-10-22T12:41:53.058055+00:00"
+      "last_checked": "2026-10-23T12:20:12.313534+00:00"
     },
     "Alantra|Madrid": {
       "has_signal": false,
       "hash": "69bc297e04153fbc2b80c63b343f895bd577f57db36896e9b4e5970ab8781e86",
-      "last_checked": "2026-10-22T12:41:44.890304+00:00"
+      "last_checked": "2026-10-23T12:20:03.684953+00:00"
     },
     "Alvarez & Marsal|London": {
       "has_signal": false,
-      "hash": "c691c86eaeac816b88392c77fc31b7772158e02bb572fbdc33f7688da3bbfdeb",
-      "last_checked": "2026-10-22T12:42:40.466310+00:00"
+      "hash": "11b34ce43977427d7d2ccb75520adf3d1e4c0657a3f86314957c73c4dd66e86e",
+      "last_checked": "2026-10-23T12:20:59.411708+00:00"
     },
     "Alvarez & Marsal|Madrid": {
       "has_signal": false,
-      "hash": "6e3278840be94f74603a8ce52bf0f87d35605fee32acd48bb769c0350ad79dfa",
-      "last_checked": "2026-10-22T12:42:37.349487+00:00"
+      "hash": "bd1f4f5597b5bcc4918232ddd2792ebd9e83ee0ce72e41c4d601a91567dec61e",
+      "last_checked": "2026-10-23T12:20:56.279152+00:00"
     },
     "Arcano|Madrid": {
       "has_signal": false,
       "hash": "697e028243e148b386f16b972f80a5d711f251015ce2e7c9a6bf242d98c43446",
-      "last_checked": "2026-10-22T12:41:48.891326+00:00"
+      "last_checked": "2026-10-23T12:20:07.621303+00:00"
     },
     "BBVA|Madrid": {
       "has_signal": false,
-      "hash": "4e6b4fe883a0c2494f9d620e429b282429f2f5a4641c7be07fd250b3d610d7bc",
-      "last_checked": "2026-10-22T12:41:41.254975+00:00"
+      "hash": "528f540fd1840489db7a7290c38717aa60f544518c8e8e9988634328156e86ba",
+      "last_checked": "2026-10-23T12:19:59.832603+00:00"
     },
     "BDO|London": {
       "has_signal": false,
       "hash": "d7e06169d55c5a543d5bbba24d75251f5ec343ff8cca352c64a2ead702c05db4",
-      "last_checked": "2026-10-22T12:43:54.212051+00:00"
+      "last_checked": "2026-10-23T12:22:14.352261+00:00"
     },
     "BDO|Madrid": {
       "has_signal": false,
       "hash": "a50329762038d521084e0dd6e80f11cfb6e7148c9121b8f18b127fb8991234b1",
-      "last_checked": "2026-10-22T12:43:50.335591+00:00"
+      "last_checked": "2026-10-23T12:22:10.146193+00:00"
     },
     "BNP Paribas|London": {
       "has_signal": false,
       "hash": "ed872c468075c2f3f7101338da8878ad057cf27a7cf3e13fec7a89c83da17656",
-      "last_checked": "2026-10-22T12:39:47.119738+00:00"
+      "last_checked": "2026-10-23T12:18:53.631027+00:00"
     },
     "BNP Paribas|Madrid": {
       "has_signal": false,
-      "hash": "fdf4efa256e9842e1abb20fbf888fbc4a050c5d78be601e7c8c5e6121b9a92a5",
-      "last_checked": "2026-10-22T12:39:41.813378+00:00"
+      "hash": "6d5191911d7bbf8f70a77d91c451306bf09fbc6b098969b6fcff5942ee63d29d",
+      "last_checked": "2026-10-23T12:18:48.313646+00:00"
     },
     "Baker Tilly|London": {
       "has_signal": false,
-      "hash": "c12d3def2c783325eb039467cebdef013d418790cf64f3016a115e2a2c1e4851",
-      "last_checked": "2026-10-22T12:44:08.498152+00:00"
+      "hash": "bbc7aba143f0df29f19d1b86267e8f5d257ba4dd092aa277ae252ed78de80ed0",
+      "last_checked": "2026-10-23T12:22:29.909324+00:00"
     },
     "Baker Tilly|Madrid": {
       "has_signal": false,
       "hash": "7a10ef0419f6221f4947a34d3e913f6a76dfb52b70795388be847c105f7b1f5e",
-      "last_checked": "2026-10-22T12:44:05.279390+00:00"
+      "last_checked": "2026-10-23T12:22:26.678990+00:00"
     },
     "Banco Sabadell|Madrid": {
       "has_signal": false,
       "hash": "32cf683c6cb81efc537945b1ab1e7f67c618cf6c4674a3e1a66ee1dd069ec360",
-      "last_checked": "2026-10-22T12:42:11.257367+00:00"
+      "last_checked": "2026-10-23T12:20:29.144483+00:00"
     },
     "Bank of America|Dublin": {
       "has_signal": false,
       "hash": "084a67a026546b330d2059e2e2572e096a03187277f933c8fdc366a55da9934a",
-      "last_checked": "2026-10-22T12:38:29.593697+00:00"
+      "last_checked": "2026-10-23T12:17:32.611830+00:00"
     },
     "Bank of America|London": {
       "has_signal": false,
       "hash": "084a67a026546b330d2059e2e2572e096a03187277f933c8fdc366a55da9934a",
-      "last_checked": "2026-10-22T12:38:25.522751+00:00"
+      "last_checked": "2026-10-23T12:17:28.474614+00:00"
     },
     "Bank of America|Madrid": {
       "has_signal": false,
       "hash": "084a67a026546b330d2059e2e2572e096a03187277f933c8fdc366a55da9934a",
-      "last_checked": "2026-10-22T12:38:21.335856+00:00"
+      "last_checked": "2026-10-23T12:17:24.118205+00:00"
     },
     "Bankinter|Madrid": {
       "has_signal": false,
       "hash": "f8a46dd757d4d93f702621d16cb41700903d8afa44d6920a19001337507e8c46",
-      "last_checked": "2026-10-22T12:42:27.778592+00:00"
+      "last_checked": "2026-10-23T12:20:46.662456+00:00"
     },
     "Barclays|Dublin": {
       "has_signal": false,
-      "hash": "ae9b7d4cd5c631e12d1c232e8fbc6a356f420a9221946e809e48caf2eac98fd2",
-      "last_checked": "2026-10-22T12:39:02.298867+00:00"
+      "hash": "45b139a927d6010bffe6251378e8f3ef4b524aeaa2fb57f6d4ccc777b014bf40",
+      "last_checked": "2026-10-23T12:18:06.808006+00:00"
     },
     "Barclays|London": {
       "has_signal": false,
-      "hash": "ae9b7d4cd5c631e12d1c232e8fbc6a356f420a9221946e809e48caf2eac98fd2",
-      "last_checked": "2026-10-22T12:38:56.998903+00:00"
+      "hash": "45b139a927d6010bffe6251378e8f3ef4b524aeaa2fb57f6d4ccc777b014bf40",
+      "last_checked": "2026-10-23T12:18:01.151158+00:00"
     },
     "Barclays|Madrid": {
       "has_signal": false,
-      "hash": "ae9b7d4cd5c631e12d1c232e8fbc6a356f420a9221946e809e48caf2eac98fd2",
-      "last_checked": "2026-10-22T12:38:51.591345+00:00"
+      "hash": "45b139a927d6010bffe6251378e8f3ef4b524aeaa2fb57f6d4ccc777b014bf40",
+      "last_checked": "2026-10-23T12:17:55.537589+00:00"
     },
     "CaixaBank|Madrid": {
       "has_signal": false,
-      "hash": "238c93599687d5e87343bf87e4d8a7f7255f9077c663739f3c7a7afd32a61f09",
-      "last_checked": "2026-10-22T12:41:57.145833+00:00"
+      "hash": "361047b2c6061e0d8aeade59f8883e49b78f72111df6c3da0a7359b1a597547b",
+      "last_checked": "2026-10-23T12:20:16.503801+00:00"
     },
     "Centerview Partners|London": {
       "has_signal": false,
       "hash": "5a462bde330190bb4e5ab2123e39a428c7cea9015868d87713f32c42620d3d74",
-      "last_checked": "2026-10-22T12:44:19.762403+00:00"
+      "last_checked": "2026-10-23T12:22:41.099665+00:00"
     },
     "Citi|Dublin": {
       "has_signal": true,
-      "hash": "901a5de20cb856077d0ccbffd271a2a88f333fbf16597a67f6057fc7617c70c3",
-      "last_checked": "2026-10-22T12:38:46.075481+00:00"
+      "hash": "55300fabd8293b5dde94def76e4f9a14354dc379d5a2ab68e598de7f17b3ac7d",
+      "last_checked": "2026-10-23T12:17:49.778331+00:00"
     },
     "Citi|London": {
       "has_signal": true,
-      "hash": "901a5de20cb856077d0ccbffd271a2a88f333fbf16597a67f6057fc7617c70c3",
-      "last_checked": "2026-10-22T12:38:40.543829+00:00"
+      "hash": "fcd5793561e2a0a31f5bd9afdea0bbb3367ff812535fc916e6de3d5d89067bcf",
+      "last_checked": "2026-10-23T12:17:44.250344+00:00"
     },
     "Citi|Madrid": {
       "has_signal": true,
-      "hash": "901a5de20cb856077d0ccbffd271a2a88f333fbf16597a67f6057fc7617c70c3",
-      "last_checked": "2026-10-22T12:38:35.046022+00:00"
+      "hash": "55300fabd8293b5dde94def76e4f9a14354dc379d5a2ab68e598de7f17b3ac7d",
+      "last_checked": "2026-10-23T12:17:38.499773+00:00"
     },
     "Credit Agricole CIB|London": {
       "has_signal": false,
-      "hash": "24eaf1b559919d7dde0c5c4a49350293fe6d6197eff05f5e916a92832231bf5a",
-      "last_checked": "2026-10-21T12:37:22.699325+00:00"
+      "hash": "227dcbb9f52e99e9b5ab40acde1110accfd940d985982dc487584b7c0160d929",
+      "last_checked": "2026-10-23T12:19:38.895642+00:00"
     },
     "Credit Agricole CIB|Madrid": {
       "has_signal": false,
-      "hash": "24eaf1b559919d7dde0c5c4a49350293fe6d6197eff05f5e916a92832231bf5a",
-      "last_checked": "2026-10-21T12:37:17.487533+00:00"
+      "hash": "c11e193fd83d11a609dadc3736afd2f9b4140a899e556484889630f65c3553b7",
+      "last_checked": "2026-10-23T12:19:35.478966+00:00"
     },
     "DC Advisory|London": {
       "has_signal": false,
-      "hash": "db0d5044c34c2e3ebf2e533ccc42b646c97e160753fe04635af8782411f5056d",
-      "last_checked": "2026-10-22T12:42:34.095129+00:00"
+      "hash": "8dc017dea534e7ce7ee3b6dacff188bb6f3845bbd075d63f5ec0a91d08ff97ea",
+      "last_checked": "2026-10-23T12:20:53.067378+00:00"
     },
     "DC Advisory|Madrid": {
       "has_signal": false,
-      "hash": "ee13e4292919f1382462422475197bcfac593bd3ec5ec7636f425288cc7e60f6",
-      "last_checked": "2026-10-22T12:42:30.948512+00:00"
+      "hash": "25b42d5bc876f0ce2f80e17ed9c885e0d3bd43a20d841521dceefc4288611dbf",
+      "last_checked": "2026-10-23T12:20:49.886621+00:00"
     },
     "Deloitte|Dublin": {
       "has_signal": false,
       "hash": "6412f5566112d24cfbb5cffe73630d0275c5eb8467f6c38bf21125bb7701a2d0",
-      "last_checked": "2026-10-22T12:42:51.502261+00:00"
+      "last_checked": "2026-10-23T12:21:12.262922+00:00"
     },
     "Deloitte|London": {
       "has_signal": false,
-      "hash": "80fe2a8a377561f9476111fc8d7ad42a1d5b688b2f7d39a67f3efd7eb1730e58",
-      "last_checked": "2026-10-22T12:42:47.655289+00:00"
+      "hash": "92a2cf4efc4a6af7739a88bc5e9e50318a54caee22764f2d1a5d98ae6709d26e",
+      "last_checked": "2026-10-23T12:21:08.222181+00:00"
     },
     "Deloitte|Madrid": {
       "has_signal": false,
       "hash": "355c0cbc74b5140a2dbd1ef08a15dfb2b93ae9c8d700fb05189ef49213e8d59f",
-      "last_checked": "2026-10-22T12:42:44.271932+00:00"
+      "last_checked": "2026-10-23T12:21:04.448957+00:00"
     },
     "Deloitte|Netherlands": {
       "has_signal": false,
       "hash": "1004591c4ca59e57d5f0051c6cbf4c83777f011fcc97c1697f6ffdc5903dd134",
-      "last_checked": "2026-10-22T12:42:55.044524+00:00"
+      "last_checked": "2026-10-23T12:21:15.873827+00:00"
     },
     "Deutsche Bank|London": {
       "has_signal": false,
-      "hash": "3fbb29bace198ae3e2b360b6cca6389b8b4e2156382598b0d574eb19371d70ab",
-      "last_checked": "2026-10-22T12:39:54.147734+00:00"
+      "hash": "f41470c0af3e93c20c2a2e785513066aa719fbd8ebf2d1d6fc72e5778992437b",
+      "last_checked": "2026-10-23T12:19:01.769980+00:00"
     },
     "Deutsche Bank|Madrid": {
       "has_signal": false,
-      "hash": "3fbb29bace198ae3e2b360b6cca6389b8b4e2156382598b0d574eb19371d70ab",
-      "last_checked": "2026-10-22T12:39:50.723155+00:00"
+      "hash": "f41470c0af3e93c20c2a2e785513066aa719fbd8ebf2d1d6fc72e5778992437b",
+      "last_checked": "2026-10-23T12:18:57.819615+00:00"
     },
     "EY|Dublin": {
       "has_signal": false,
       "hash": "9421b0738430b127a6bf2fb15ae5981a950c9e474e820a3b8f0fdcf7758fdb59",
-      "last_checked": "2026-10-22T12:43:08.631732+00:00"
+      "last_checked": "2026-10-23T12:21:27.284747+00:00"
     },
     "EY|London": {
       "has_signal": true,
       "hash": "ff3687615d4ace486363a9b60d9ef6339f0d1042fb45d15676109378f9b8c6f8",
-      "last_checked": "2026-10-22T12:43:04.371870+00:00"
+      "last_checked": "2026-10-23T12:21:23.844110+00:00"
     },
     "EY|Madrid": {
       "has_signal": false,
       "hash": "57ca40feaa7248f15f1b790a2452587998295c349af2643e01d2646f6b3d5036",
-      "last_checked": "2026-10-22T12:42:59.470436+00:00"
+      "last_checked": "2026-10-23T12:21:20.086723+00:00"
     },
     "EY|Netherlands": {
       "has_signal": false,
       "hash": "3a35dde20f102c446d679344d87958ac1d130aa7b5943b7492209126ab701441",
-      "last_checked": "2026-10-22T12:43:11.958042+00:00"
+      "last_checked": "2026-10-23T12:21:30.657192+00:00"
     },
     "Evercore|London": {
       "has_signal": false,
       "hash": "ed9149704dbb33ebd964746eeb7459bcbbca78999fc92095ae495f56b6aee2a5",
-      "last_checked": "2026-10-22T12:39:15.998047+00:00"
+      "last_checked": "2026-10-23T12:18:20.806647+00:00"
     },
     "Evercore|Madrid": {
       "has_signal": false,
       "hash": "ed9149704dbb33ebd964746eeb7459bcbbca78999fc92095ae495f56b6aee2a5",
-      "last_checked": "2026-10-22T12:39:12.651738+00:00"
+      "last_checked": "2026-10-23T12:18:17.428611+00:00"
     },
     "Goldman Sachs|London": {
       "has_signal": true,
       "hash": "403299b93f6ac4f26fa4eb7083c4c6d2589db53b0b22c446ad1ff9e8a6f9992f",
-      "last_checked": "2026-10-22T12:38:05.968440+00:00"
+      "last_checked": "2026-10-23T12:17:08.168748+00:00"
     },
     "Goldman Sachs|Madrid": {
       "has_signal": true,
       "hash": "403299b93f6ac4f26fa4eb7083c4c6d2589db53b0b22c446ad1ff9e8a6f9992f",
-      "last_checked": "2026-10-22T12:38:02.445206+00:00"
+      "last_checked": "2026-10-23T12:17:04.383709+00:00"
     },
     "Grant Thornton|London": {
       "has_signal": true,
       "hash": "6a282885a51662c483196cf9546f09d3f9693478849ef3aa35528b1e7c1200d2",
-      "last_checked": "2026-10-22T12:44:01.527506+00:00"
+      "last_checked": "2026-10-23T12:22:21.765663+00:00"
     },
     "Grant Thornton|Madrid": {
       "has_signal": false,
       "hash": "450cbfc002ea7b5daebcb7ad695f78ea954422dd3b6728f0aed44d53c249a205",
-      "last_checked": "2026-10-22T12:43:57.884050+00:00"
+      "last_checked": "2026-10-23T12:22:18.102601+00:00"
     },
     "Greenhill|London": {
       "has_signal": false,
       "hash": "61e718048c6463eeefff18182251d13c212fa4ed22288f7ae9827d0a3652eb9e",
-      "last_checked": "2026-10-22T12:41:32.654320+00:00"
+      "last_checked": "2026-10-23T12:19:50.480677+00:00"
     },
     "HSBC|London": {
       "has_signal": false,
       "hash": "5f556a29d29e212083b0f771c0aaa059cf3ab44b5425c393a570d2bda5d4e115",
-      "last_checked": "2026-10-22T12:44:12.502563+00:00"
+      "last_checked": "2026-10-23T12:22:34.139252+00:00"
     },
     "Houlihan Lokey|London": {
       "has_signal": false,
       "hash": "c83de218f5886aa4b7334f69d7a21faf683b04ab1992114032850042a906ba68",
-      "last_checked": "2026-10-22T12:41:28.560264+00:00"
+      "last_checked": "2026-10-23T12:19:46.286621+00:00"
     },
     "Houlihan Lokey|Madrid": {
       "has_signal": false,
       "hash": "c83de218f5886aa4b7334f69d7a21faf683b04ab1992114032850042a906ba68",
-      "last_checked": "2026-10-22T12:41:25.150780+00:00"
+      "last_checked": "2026-10-23T12:19:42.715945+00:00"
     },
     "ING|Madrid": {
       "has_signal": false,
-      "hash": "e3bb8396dae18d459263632494d2aacc19c422343e1a15034f7091ee90705bca",
-      "last_checked": "2026-10-22T12:42:18.019532+00:00"
+      "hash": "75c7f407879c60ae60dd7a2893d0cd27ab3eb3a643f2e9ee68bf7b85088c234f",
+      "last_checked": "2026-10-23T12:20:36.346851+00:00"
     },
     "ING|Netherlands": {
       "has_signal": false,
-      "hash": "e3bb8396dae18d459263632494d2aacc19c422343e1a15034f7091ee90705bca",
-      "last_checked": "2026-10-22T12:42:24.070765+00:00"
+      "hash": "75c7f407879c60ae60dd7a2893d0cd27ab3eb3a643f2e9ee68bf7b85088c234f",
+      "last_checked": "2026-10-23T12:20:42.638803+00:00"
     },
     "Investec|London": {
       "has_signal": false,
-      "hash": "2c1659e85713d5083b0922154b72d31b97f6c70a106a3f1b0b35ddd477316140",
-      "last_checked": "2026-10-22T12:44:26.528572+00:00"
+      "hash": "0f7072b4dae63cf5ce5bbc13927993707900dc1221d387364fa0415f9d3d6495",
+      "last_checked": "2026-10-23T12:22:47.788732+00:00"
     },
     "J.P. Morgan|London": {
       "has_signal": false,
-      "hash": "eeba06caf43b79ccd4aa28e840766be37acfc8615ed7da8c41a4e58cd5387ffd",
-      "last_checked": "2026-10-22T12:38:13.424309+00:00"
+      "hash": "5360a8793d42c3ae98477649f9be3f16b38266e661dad4409fd45da30de04643",
+      "last_checked": "2026-10-23T12:17:15.827151+00:00"
     },
     "J.P. Morgan|Madrid": {
       "has_signal": false,
-      "hash": "eeba06caf43b79ccd4aa28e840766be37acfc8615ed7da8c41a4e58cd5387ffd",
-      "last_checked": "2026-10-22T12:38:09.798087+00:00"
+      "hash": "5360a8793d42c3ae98477649f9be3f16b38266e661dad4409fd45da30de04643",
+      "last_checked": "2026-10-23T12:17:12.126688+00:00"
     },
     "Jefferies|London": {
       "has_signal": false,
       "hash": "ea4f8c3d89929c8dc7ef09470b1022de05fe2fb706d0e0dde4e25a8afb53dfd8",
-      "last_checked": "2026-10-22T12:39:09.056480+00:00"
+      "last_checked": "2026-10-23T12:18:13.734552+00:00"
     },
     "Jefferies|Madrid": {
       "has_signal": false,
       "hash": "ea4f8c3d89929c8dc7ef09470b1022de05fe2fb706d0e0dde4e25a8afb53dfd8",
-      "last_checked": "2026-10-22T12:39:05.704313+00:00"
+      "last_checked": "2026-10-23T12:18:10.328370+00:00"
     },
     "KPMG|Dublin": {
       "has_signal": true,
       "hash": "1a94fea389495278620fc1132c06a20508fe3439be0ec93e3c5677456d3c65a6",
-      "last_checked": "2026-10-22T12:43:24.141239+00:00"
+      "last_checked": "2026-10-23T12:21:43.294770+00:00"
     },
     "KPMG|London": {
       "has_signal": false,
       "hash": "d180c9d937b785d989b7161139c9d9437a206a78c755c69e1be408674ae4665b",
-      "last_checked": "2026-10-22T12:43:20.000710+00:00"
+      "last_checked": "2026-10-23T12:21:39.203687+00:00"
     },
     "KPMG|Madrid": {
       "has_signal": false,
       "hash": "d31a1cf42c319443fcbdd09fd231795176dfad72f0c2df7241475f83670f7151",
-      "last_checked": "2026-10-22T12:43:15.731215+00:00"
+      "last_checked": "2026-10-23T12:21:34.430841+00:00"
     },
     "KPMG|Netherlands": {
       "has_signal": false,
       "hash": "28bc9c194e8f353d0dc5862ecc97b17cfeab73307c9b0499dd45261166d3c85e",
-      "last_checked": "2026-10-22T12:43:28.307553+00:00"
+      "last_checked": "2026-10-23T12:21:47.802797+00:00"
     },
     "Kempen & Co|Netherlands": {
       "has_signal": false,
       "hash": "f8d38900d26e9bdcf79ade08731df6fe8f4a34bfc344774ef40ef07e99521a13",
-      "last_checked": "2026-10-22T12:44:51.675878+00:00"
+      "last_checked": "2026-10-23T12:23:14.836975+00:00"
     },
     "Lazard|London": {
       "has_signal": false,
       "hash": "77ebf0c5bfbbd6ae2bc0654223026ebf98730a07a61a9778763da8a9521bd6c9",
-      "last_checked": "2026-10-22T12:39:22.529737+00:00"
+      "last_checked": "2026-10-23T12:18:27.776221+00:00"
     },
     "Lazard|Madrid": {
       "has_signal": false,
       "hash": "77ebf0c5bfbbd6ae2bc0654223026ebf98730a07a61a9778763da8a9521bd6c9",
-      "last_checked": "2026-10-22T12:39:19.286090+00:00"
+      "last_checked": "2026-10-23T12:18:24.339371+00:00"
     },
     "Macquarie|London": {
       "has_signal": true,
-      "hash": "94fd3aa6c95250e4d10713d85399da56a045ecdbede1e290abef3fb122615b77",
-      "last_checked": "2026-10-22T12:44:16.088532+00:00"
+      "hash": "47355e3926e09b45f1b7b998f1c4543d63272504a3db1532516b09ce41571b51",
+      "last_checked": "2026-10-23T12:22:37.722458+00:00"
     },
     "Moelis & Company|London": {
       "has_signal": false,
       "hash": "0c489e9b0a0c8961ef62443f714c2795ded7f555557c80cce92bc09bd4ff3ee2",
-      "last_checked": "2026-10-22T12:44:23.313425+00:00"
+      "last_checked": "2026-10-23T12:22:44.545479+00:00"
     },
     "NIBC|Netherlands": {
       "has_signal": false,
       "hash": "8d20b4f1a76885218f55ac9a919f87c7df7f6c6a8a2dc500d606564a8bc43db7",
-      "last_checked": "2026-10-22T12:44:47.212736+00:00"
+      "last_checked": "2026-10-23T12:23:09.827209+00:00"
     },
     "Nomura|London": {
       "has_signal": false,
       "hash": "d6597960891df017aa4eed5043d958b324315f2ab97ac4959148e861f39005ef",
-      "last_checked": "2026-10-22T12:39:31.455306+00:00"
+      "last_checked": "2026-10-23T12:18:37.603918+00:00"
     },
     "Nomura|Madrid": {
       "has_signal": false,
       "hash": "d6597960891df017aa4eed5043d958b324315f2ab97ac4959148e861f39005ef",
-      "last_checked": "2026-10-22T12:39:26.876871+00:00"
+      "last_checked": "2026-10-23T12:18:32.355206+00:00"
     },
     "Numis|London": {
       "has_signal": false,
-      "hash": "3fbb29bace198ae3e2b360b6cca6389b8b4e2156382598b0d574eb19371d70ab",
-      "last_checked": "2026-10-22T12:44:33.296602+00:00"
+      "hash": "f41470c0af3e93c20c2a2e785513066aa719fbd8ebf2d1d6fc72e5778992437b",
+      "last_checked": "2026-10-23T12:22:55.075258+00:00"
     },
     "PJT Partners|London": {
       "has_signal": false,
       "hash": "bcb438af541f729c30259fe7bb67e26e2479cfd38258f020ebd05f1ae30628d0",
-      "last_checked": "2026-10-22T12:38:16.974797+00:00"
+      "last_checked": "2026-10-23T12:17:19.649423+00:00"
     },
     "Peel Hunt|London": {
       "has_signal": false,
-      "hash": "d60c0869306add183000f7cd2d640e59e999c1a61cc68422c7a6e5d5dd1723c9",
-      "last_checked": "2026-10-22T12:44:29.838576+00:00"
+      "hash": "7ac449976d3649c92b137e9c4b866615e575ddd90e567235ab4388f749f25ea9",
+      "last_checked": "2026-10-23T12:22:51.100189+00:00"
     },
     "PwC|Dublin": {
       "has_signal": false,
       "hash": "febccd8c2405b98a08c546649aaa4b5a7040117f0f11fc0c34c098cb53edc7f5",
-      "last_checked": "2026-10-22T12:43:41.360345+00:00"
+      "last_checked": "2026-10-23T12:22:00.673369+00:00"
     },
     "PwC|London": {
       "has_signal": false,
       "hash": "2efcc1fb3e1803e71a2d56ad8fe0b88ca977f3d178c8a9a88793c350f9469384",
-      "last_checked": "2026-10-22T12:43:37.015976+00:00"
+      "last_checked": "2026-10-23T12:21:55.991816+00:00"
     },
     "PwC|Madrid": {
       "has_signal": false,
       "hash": "9bc0bdea4831162b17e18ef2ef9b3e731bf5a1baa36443f2e618b82c6cbf6e64",
-      "last_checked": "2026-10-22T12:43:33.028874+00:00"
+      "last_checked": "2026-10-23T12:21:52.094530+00:00"
     },
     "PwC|Netherlands": {
       "has_signal": false,
       "hash": "fdeafaebffe5f6cabb3819bc3f40b6c59fd983cf4a43a7c8a7679b0338ab8b2b",
-      "last_checked": "2026-10-22T12:43:45.329660+00:00"
+      "last_checked": "2026-10-23T12:22:04.862419+00:00"
     },
     "RBC Capital Markets|London": {
       "has_signal": false,
-      "hash": "573ff6c11d6af68f056789ca73b8dfb49163685b42f67af7247a8af25c11410e",
-      "last_checked": "2026-10-22T12:40:11.022184+00:00"
+      "hash": "d637e621b39fd280fb825397ac54e501baa81200e70ce8cf34cce395ddbf5a4e",
+      "last_checked": "2026-10-23T12:19:18.911881+00:00"
     },
     "RBC Capital Markets|Madrid": {
       "has_signal": false,
-      "hash": "573ff6c11d6af68f056789ca73b8dfb49163685b42f67af7247a8af25c11410e",
-      "last_checked": "2026-10-22T12:40:06.485877+00:00"
+      "hash": "d637e621b39fd280fb825397ac54e501baa81200e70ce8cf34cce395ddbf5a4e",
+      "last_checked": "2026-10-23T12:19:14.357011+00:00"
     },
     "Rabobank|Netherlands": {
       "has_signal": false,
       "hash": "12ac641ea937d062c479684d138a6ffb1c3b36017188b5e3bc514c6c9e6c478e",
-      "last_checked": "2026-10-22T12:44:42.592335+00:00"
+      "last_checked": "2026-10-23T12:23:04.729722+00:00"
     },
     "Rothschild & Co|London": {
       "has_signal": false,
       "hash": "24af1cbb11739cf27d46b052de592a330a6b91fd72f71e7cd79a0d6a0e2db1f9",
-      "last_checked": "2026-10-22T12:40:01.755734+00:00"
+      "last_checked": "2026-10-23T12:19:09.602823+00:00"
     },
     "Rothschild & Co|Madrid": {
       "has_signal": false,
       "hash": "24af1cbb11739cf27d46b052de592a330a6b91fd72f71e7cd79a0d6a0e2db1f9",
-      "last_checked": "2026-10-22T12:39:57.930325+00:00"
+      "last_checked": "2026-10-23T12:19:05.724123+00:00"
     },
     "Santander|Madrid": {
       "has_signal": true,
-      "hash": "70f92b1e4580054dff1fd1598adb2a23a8e7d8785134ce5f890a2df09e2d23c2",
-      "last_checked": "2026-10-22T12:41:37.761833+00:00"
+      "hash": "4c18113d1df4149c8d0ead28cba0fb19a7372a1ecee582024e97f806a9949427",
+      "last_checked": "2026-10-23T12:19:55.987197+00:00"
     },
     "Societe Generale|London": {
       "has_signal": false,
       "hash": "3d4598cf6e851ea77883de0f8b896a776ff1ac3a37cc3b7b042c0ede926ef385",
-      "last_checked": "2026-10-22T12:40:21.500138+00:00"
+      "last_checked": "2026-10-23T12:19:30.276894+00:00"
     },
     "Societe Generale|Madrid": {
       "has_signal": false,
       "hash": "3d4598cf6e851ea77883de0f8b896a776ff1ac3a37cc3b7b042c0ede926ef385",
-      "last_checked": "2026-10-22T12:40:16.725296+00:00"
+      "last_checked": "2026-10-23T12:19:25.479514+00:00"
     },
     "UBS|London": {
       "has_signal": false,
       "hash": "54e5c69ae9227f5a8502c0d6cef3ab6af7f92e47075ef07290a415f04d8a15eb",
-      "last_checked": "2026-10-22T12:39:38.279714+00:00"
+      "last_checked": "2026-10-23T12:18:44.529756+00:00"
     },
     "UBS|Madrid": {
       "has_signal": false,
       "hash": "54e5c69ae9227f5a8502c0d6cef3ab6af7f92e47075ef07290a415f04d8a15eb",
-      "last_checked": "2026-10-22T12:39:34.812152+00:00"
+      "last_checked": "2026-10-23T12:18:41.023776+00:00"
     }
   },
   "search": {}
