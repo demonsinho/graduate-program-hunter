@@ -190,5 +190,13 @@
     "timestamp": "2026-11-01T14:01:30.982036+00:00",
     "type": "page_change",
     "url": "https://careers.db.com/students-graduates/"
+  },
+  {
+    "detail": "page now mentions 2027",
+    "firm": "Baker Tilly",
+    "location": "London",
+    "timestamp": "2026-11-03T14:51:25.624684+00:00",
+    "type": "page_change",
+    "url": "https://www.mha.co.uk/careers/graduates"
   }
 ]
