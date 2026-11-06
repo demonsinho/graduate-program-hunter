@@ -198,5 +198,21 @@
     "timestamp": "2026-11-03T14:51:25.624684+00:00",
     "type": "page_change",
     "url": "https://www.mha.co.uk/careers/graduates"
+  },
+  {
+    "detail": "page now mentions 2027",
+    "firm": "RBC Capital Markets",
+    "location": "Madrid",
+    "timestamp": "2026-11-06T14:49:01.956776+00:00",
+    "type": "page_change",
+    "url": "https://jobs.rbc.com/ca/en/students-graduates"
+  },
+  {
+    "detail": "page now mentions 2027",
+    "firm": "RBC Capital Markets",
+    "location": "London",
+    "timestamp": "2026-11-06T14:49:01.956776+00:00",
+    "type": "page_change",
+    "url": "https://jobs.rbc.com/ca/en/students-graduates"
   }
 ]
